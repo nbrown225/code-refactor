@@ -1,8 +1,12 @@
 # code-refactor
 
-## Code refactoring assignment. 
+## Code refactoring assignment
 *This assignment is to update the index.html and style.css for the Horiseon website, without changing the overall layout*
-  
+
+## Website link and screenshot
+<img src="C:\Users\chbro\Repositories\code-refactor\assets\images\About Horiseon - Google Chrome 9_23_2021 7_40_08 AM.png" alt="preview image">
+https://nbrown225.github.io/code-refactor/
+
 ## Requirements
 * Assure that the source code has Semantic HTML Elements
 * Assure that the elements do not change the structure of the site styling / positioning
