@@ -9,10 +9,14 @@ https://nbrown225.github.io/code-refactor/
 
 ## Requirements
 * Assure that the source code has Semantic HTML Elements
+- Changed <div> to the footer to give more information to the browser
+  - <footer class="footer">
+- added <article> instead of <div> so the browser would know the different sections. helping accessibility readers. 
 * Assure that the elements do not change the structure of the site styling / positioning
 * Assure Icons and Images have Alt Attributes to meet accessibility standards
 * Assure the Heading Attributes are in sequential order
 * Assure the title is concise and descriptive
+- <title>About Horiseon</title>
 
 ## Resources
 * Github
