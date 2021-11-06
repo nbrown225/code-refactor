@@ -1,5 +1,8 @@
 # code-refactor
-
+TO DO!
+- FIX /BODY
+- LEAD GEN PANAL NOT LINED UP
+- HORISEON BACKGROUND NOT SHOWING
 ## Code refactoring assignment
 *This assignment is to update the index.html and style.css for the Horiseon website, without changing the overall layout*
 
@@ -12,6 +15,7 @@ https://nbrown225.github.io/code-refactor/
 - Changed <div> to the footer to give more information to the browser
   - <footer class="footer">
 - added <article> instead of <div> so the browser would know the different sections. helping accessibility readers. 
+- 
 * Assure that the elements do not change the structure of the site styling / positioning
 * Assure Icons and Images have Alt Attributes to meet accessibility standards
 * Assure the Heading Attributes are in sequential order
