@@ -8,14 +8,15 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+.heading {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    position: relative;
 }
 
-.header h1 {
+.header .heading h1 {
     display: inline-block;
     font-size: 48px;
 }
@@ -24,7 +25,7 @@ body {
     color: #d9dcd6;
 }
 
-.header section nav {
+.navbar nav { 
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +33,11 @@ body {
     font-size: 20px;
 }
 
-.header section nav ul {
+.navbar nav ul {
     list-style-type: none;
 }
 
-.header section nav ul li {
+.navbar nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
