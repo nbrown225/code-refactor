@@ -1,28 +1,49 @@
-# code-refactor
-TO DO!
-- FIX /BODY
-- LEAD GEN PANAL NOT LINED UP
-- HORISEON BACKGROUND NOT SHOWING
-- add alt to img in css
-## Code refactoring assignment
-*This assignment is to update the index.html and style.css for the Horiseon website, without changing the overall layout*
+# CODE REFACTOR PROJECT
+*This assignment is to update the index.html and style.css for the Horiseon website with accessability syntax
 
-## Website link and screenshot
-<img src="C:\Users\chbro\Repositories\code-refactor\assets\images\About Horiseon - Google Chrome 9_23_2021 7_40_08 AM.png" alt="preview image">
-https://nbrown225.github.io/code-refactor/
+- [CODE REFACTOR PROJECT](#code-refactor-project)
+  - [Requirements](#requirements)
+  - [My Process](#my-process)
+    - [Semantic Elements](#semantic-elements)
+    - [Keeping the Structure of the Site](#keeping-the-structure-of-the-site)
+    - [Alt Attributs](#alt-attributs)
+    - [Heading Atribute Order](#heading-atribute-order)
+    - [Title Description](#title-description)
+  - [Resources](#resources)
 
-## Requirements
+## Requirements 
 * Assure that the source code has Semantic HTML Elements
-- Changed <div> to the footer to give more information to the browser
-  - <footer class="footer">
-- added <article> instead of <div> so the browser would know the different sections. helping accessibility readers. 
-- 
 * Assure that the elements do not change the structure of the site styling / positioning
-* Assure Icons and Images have Alt Attributes to meet accessibility standards
+* Assure Icons and Images h ave Alt Attributes to meet accessibility standards
 * Assure the Heading Attributes are in sequential order
 * Assure the title is concise and descriptive
-- <title>About Horiseon</title>
 
+## My Process
+
+### Semantic Elements
+- Changed ```<div>``` to the ```<header>```, ```<body>```, ```<footer>```to give more information to the browser
+- Also added ```<article>``` so accessibility will know the difference in the sections of the page
+### Keeping the Structure of the Site
+- Changing the classes/id's in HTML to match CSS
+  - ``` <h1>Hori<span id="seo">seo</span>n</h1>``` which correlated to ```header h1 #seo ``` in the CSS. This put emphasis on the "SEO" in Horiseon.
+  
+  - ```<section class="hero">``` and ```.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}``` which to the page to add the Hero image and giff it 800 px height, 100% width so it will fit the whole page etc.
+
+### Alt Attributs
+- added ```<alt>``` and discriptions to each ```<img>```
+  - ```<img src="./assets/images/search-engine-optimization.jpg" alt="work desk with laptop, coffee and work supplies. pens, notbook, magnifying glass" class="float-left" />```
+### Heading Atribute Order
+- made sure ```<h1>``` was only included on the most important tags and the rest of the page was given ```<h2>``` or ```<h3>```
+### Title Description
+- Changed the title from "website" to "About Horiseon"
+   
 ## Resources
 * Github
   * to create the repository
@@ -33,25 +54,6 @@ https://nbrown225.github.io/code-refactor/
 * Google and Youtube
   * for assistance on the assignment  
 
-## My process to update
-
-### Updating the source code with Semantic HTML Elements
-* Example < div class="header" > was changed to < section class="header"> in order to give information on the content inside
-  
-### Updating without changing the structure
-* When changing the div tags in the html, I also changed the corresponding tags in the css
-  * .header div { was changed to .header section {
-
-### Icons and Images
-* For each image tag, I added an ALT and explanation of the corresponding image
-  *  < img src="./assets/images/cost-management.png" alt="Image of Dollar signs with cog">
-
-### Header tag order
-* For this I assured the tags fell in sequential order
-  * h1 h2 h3...
-
-### Title description
-* Initially the title was "Website" this was changed to "Horiseon About Page"
 
 
 
