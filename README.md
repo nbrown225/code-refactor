@@ -3,6 +3,7 @@ TO DO!
 - FIX /BODY
 - LEAD GEN PANAL NOT LINED UP
 - HORISEON BACKGROUND NOT SHOWING
+- add alt to img in css
 ## Code refactoring assignment
 *This assignment is to update the index.html and style.css for the Horiseon website, without changing the overall layout*
 
