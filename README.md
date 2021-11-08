@@ -2,6 +2,8 @@
 *This assignment is to update the index.html and style.css for the Horiseon website with accessability syntax
 
 - [CODE REFACTOR PROJECT](#code-refactor-project)
+  - [Screenshot](#screenshot)
+  - [Link to website](#link-to-website)
   - [Requirements](#requirements)
   - [My Process](#my-process)
     - [Semantic Elements](#semantic-elements)
@@ -10,6 +12,12 @@
     - [Heading Atribute Order](#heading-atribute-order)
     - [Title Description](#title-description)
   - [Resources](#resources)
+
+## Screenshot
+![Alt text](/code-refactor/assets/images/Screenshot%20(25).png "Horiseon Screenshot")
+
+## Link to website
+[Horiseon Site!](https://nbrown225.github.io/code-refactor/)
 
 ## Requirements 
 * Assure that the source code has Semantic HTML Elements
