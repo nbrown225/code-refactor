@@ -14,7 +14,7 @@
   - [Resources](#resources)
 
 ## Screenshot
-![Alt text](/code-refactor/assets/images/Screenshot%20(25).png "Horiseon Screenshot")
+![Alt text](./assets/images/Screenshot%20(25).png "Horiseon Screenshot")
 
 ## Link to website
 [Horiseon Site!](https://nbrown225.github.io/code-refactor/)
